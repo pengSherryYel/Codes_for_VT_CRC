@@ -1,0 +1,1 @@
+../src/sbatch_fastqscreen.all.sh

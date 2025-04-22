@@ -1,0 +1,1 @@
+../src/wf_cross_assemble.align.crispr.sh

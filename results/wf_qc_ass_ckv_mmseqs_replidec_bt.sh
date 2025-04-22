@@ -1,0 +1,1 @@
+../src/wf_qc_ass_ckv_mmseqs_replidec_bt.sh

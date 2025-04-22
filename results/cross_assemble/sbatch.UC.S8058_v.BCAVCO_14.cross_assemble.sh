@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+/home/viro/xue.peng/software_home/SPAdes-3.15.2-Linux/bin/spades.py --meta -1 /home/viro/xue.peng/workplace_2023/CRC_community_vt/results/./cross_assemble/merged.UC.S8058_v.BCAVCO_14.1.fastq -2 /home/viro/xue.peng/workplace_2023/CRC_community_vt/results/./cross_assemble/merged.UC.S8058_v.BCAVCO_14.2.fastq -o /home/viro/xue.peng/workplace_2023/CRC_community_vt/results/./cross_assemble/assemble_spades/UC_S8058_v_{BCAVCO_14} -t 30 -m 400
