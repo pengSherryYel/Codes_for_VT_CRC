@@ -128,9 +128,9 @@ def load_iphop(iphop_dir,regrex_pattern="Host_prediction_to_genome_m90.csv"):
     
 '''
 ##Bacteria    
-abundanceDf = merge_coverm("./results_16s/uhgg_contig_nonred_Rab/btalign_b2b/coverm/")  
-kraken_tax_df=load_kraken_tax("./results_16s/kraken_contig/")
-mmseqs_tax_df=load_mmseqs_tax("./results_16s/mmseqs/")
+abundanceDf = merge_coverm("./results_bacteria/uhgg_contig_nonred_Rab/btalign_b2b/coverm/")  
+kraken_tax_df=load_kraken_tax("./results_bacteria/kraken_contig/")
+mmseqs_tax_df=load_mmseqs_tax("./results_bacteria/mmseqs/")
 
 t = abundanceDf.merge(mmseqs_tax_df,on="Contig",how="left").merge(kraken_tax_df,on="Contig",how="left")
 t.to_csv("summary/metagenomic_contig_taxonomy_abbundance.txt",sep="\t")
@@ -150,6 +150,7 @@ t = abundanceDf.merge(genomad_tax_df,on="Contig",how="left").merge(kraken_tax_df
 t.to_csv("summary/virome_contig_taxonomy_abbundance.txt",sep="\t")
 print(t)
 '''
+
 ## VT map abundance (virom; bacteria; GPD)
 abundanceDf = merge_coverm("results/vt_mapping/btalign_virome/coverm/")
 abundanceDf.to_csv("summary/vt_mapping_virome.abundance.txt")

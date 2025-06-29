@@ -1,2 +1,0 @@
-#!/usr/bin/bash
-/home/viro/xue.peng/software_home/SPAdes-3.15.2-Linux/bin/spades.py --meta -1 /home/viro/xue.peng/workplace_2023/CRC_community_vt/results/./cross_assemble/merged.healthy.S7935_v.BHVH_1.1.fastq -2 /home/viro/xue.peng/workplace_2023/CRC_community_vt/results/./cross_assemble/merged.healthy.S7935_v.BHVH_1.2.fastq -o /home/viro/xue.peng/workplace_2023/CRC_community_vt/results/./cross_assemble/assemble_spades/healthy_S7935_v_{BHVH_1} -t 30 -m 400

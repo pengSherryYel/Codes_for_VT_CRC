@@ -1,1 +1,0 @@
-../../src/prepare_CrisprOpenDB_script.sh

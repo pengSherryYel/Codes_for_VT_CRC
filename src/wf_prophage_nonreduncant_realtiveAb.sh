@@ -19,11 +19,10 @@ sh /home/viro/xue.peng/workplace_2023/CRC_community_vt/src/run_cdhit_ctg_cluster
 
 
 ## build bowtie index for VT read mapping and bacteria relative abundance 
-## example: uhgg_contig_derep/MTHDA8355_b_cdhit/MTHDA8355_b.uhgg.contig.merged_long_idt0.95.rep.fasta
 cdhit_opt="$opt_dir/allSample_cdhit/redundant_allSample.uhgg_scaffold.prophage_long_idt0.95.rep.fasta"
 
 ########################
-##Bowtie2 mapping to derep contig and binning
+##Bowtie2 mapping to derep contig
 . /home/viro/xue.peng/script/bt2.sh
 btbuild $cdhit_opt $opt_dir/bt2Index/allSample_bacteria_uhgg_prophage "--threads 20"
 
